@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projections</title>
+</head>
+<body>
+    <h1>In this project I learned how to display images in different projections</h1>
+    
+    <!-- <h2 style="color:red">Describe in your own words how you displayed the map in different projections using QGIS</h2> -->
+    <p>Using QGIS, I searched for different map projections that have been created to display in the following images. These varying map projections show how the distortion of flattening the globe into a 2-D image affects the size and shape of the land. With the Coordinate Reference System (CRS), I was able to search for different map projections, such as Winkel and Azimuthal.  </p>
+    
+    <h2>WGS84 Projection</h2>
+    <h3>This projection is commonly used for GPS and other navigation softwares because of its reference coordinate system.  </h3>
+    <a href=".//maps/4326.png">
+    <img src=".//maps/4326.png" alt="WGS84" width='500px'>
+    </a>
+    <h2>Aitoff Projection</h2>
+    <h3>This projection is based off an ellipsoid shape. The Aitoff projection is a good compromise between size and shape distortion.</h3>
+    <a href=".//maps/54043.png">
+    <img src=".//maps/54043.png" alt="Aitoff" width='500px'>
+    </a>
+    <!-- <h2 style="color:red">Now, you should <u>add the following projections on your own:</u></h2> -->
+    <!-- <h3>EPSG: 3857, 53018, 54034, 54027, 102016, and two additional projections that you choose.</h3> -->
+    <p></p>
+</a>
+<h2>Pseudo Mercator Projection</h2>
+<h3>This map projection prioritized the shape of continents/countries over the size, as the distortion at the poles of the earth are very elongated. This discrepancy causes Greenland to appear as the same size as Africa, but it is actually fourteen times smaller. Therefore, this distortion can be very misleading. </h3>
+<a href="./maps/Pseudo Mercator.png">
+<img src="./maps/Pseudo Mercator.png" alt="Pseudo Mercator" width='500px'>
+</a>
+</a>
+<h2>Winkel Tripel Projection</h2>
+<h3>The Winkel Projection utilizes an ellipsoid to limit the amount of distortion in the map. This makes the projection good for general world map viewing, but has little other uses. </h3>
+<a href="./maps/Winkel.png">
+<img src="./maps/Winkel.png" alt="Winkel" width='500px'>
+</a>
+</a>
+<h2> Transverse Mercator (Cylindrical) Projection</h2>
+<h3>This projection maps the world by way of a horizontal cylinder. This causes size, distance, and direction distortion that increases in severity farther from the central meridian.</h3>
+<a href="./maps/Cylindrical.png">
+<img src="./maps/Cylindrical.png" alt="Cylindrical" width='500px'>
+</a>
+</a>
+<h2>Conic Projection</h2>
+<h3>This Conic map projection is mostly used for east-west direction because the farther removed from the standard parallel you go on the map increases the distortion.</h3>
+<a href="./maps/Conic.png">
+<img src="./maps/Conic.png" alt="Conic" width='500px'>
+</a>
+</a>
+<h2>Azimuthal Equidistant Projection</h2>
+<h3>This projection is unique as all of its points are correct distances from the center point. Since all meridians appear straight, this projection is very useful for depiction of the poles. This Azimuthal Projection also preserves direction from the center point. However, scale is greatly distorted as you travel outward from the center point.</h3>
+<a href="./maps/Azimuthal.png">
+<img src="./maps/Azimuthal.png" alt="Azimuthal" width='500px'>
+</a>
+</a>
+<h2>Bonne Projection</h2>
+<h3>This is an equal-area projection that preserves scale and shape along the central meridian and standard parallel. However, distortion increases away from these lines. The Bonne Projection has been mostly used for projections of Europe and Asia.</h3>
+<a href="./maps/Bonne.png">
+<img src="./maps/Bonne.png" alt="Bonne" width='500px'>
+</a>
+</a>
+<h2>World Stereographic Projection</h2>
+<h3>This type projection of projection maps a sphere onto a plane, excepting for the projection point. This limits its useful properties as it cannot account for area. It does preserve angles which has made it prevalent in cartography.  </h3>
+<a href="./maps/World Stereographic.png">
+<img src="./maps/World Stereographic.png" alt="World Stereographic" width='500px'>
+</a>
+    <h2>Data used for this project</h2>
+    <a href="https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip"> Download Natrual Earth 1:10m Cultural Vector </a>
+</body>
+</html>
