@@ -1,0 +1,2 @@
+var forest = 
+{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"marker-color":"#7e7e7e","marker-size":"medium","marker-symbol":""},"geometry":{"type":"Point","coordinates":[-79.04487267136574,35.91336766340972]}}]}

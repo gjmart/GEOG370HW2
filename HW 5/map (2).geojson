@@ -1,0 +1,2 @@
+var battle = 
+{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"marker-color":"#7e7e7e","marker-size":"medium","marker-symbol":""},"geometry":{"type":"Point","coordinates":[-79.03946936130524,35.915330342821214]}}]}
