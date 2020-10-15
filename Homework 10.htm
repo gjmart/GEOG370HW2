@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 10</title>
+</head>
+<body>
+<h1>Homework 10: Geoprocessing Analysis</h1>
+<h2>Gabriela Martinez</h2>
+
+<h3>Is there a correlation between bigfoot sightings and proximity to marijuana retailers? </h3>
+<p>While searching for data and a topic on the internet, I stumbled upon a shapefile for bigfoot sightings across the world and knew I had to use it. Since the greatest amount of bigfoot sighting in the United States occurs in Washington, I chose to base my map on this state. As I struggled to find other data, I came across articles about marijuana tax revenue in the state and realzied that recreational use is legal in Washington. I immediately decided upon my "real-life" question. The map I created (EPSG:104866) depicts both locations of bigfoot sightings and marijuana retailers. I included wilderness areas in Washington for context. Although I found no direct relationship, I refuse to believe it is a coincidence.    
+</p>
+<a href="./HW 10/HW10map.png">
+    <img src="./HW 10/HW10map.png" alt="your map" width="500px">
+    </a>
+<p>For my geoprocessing tools, I used intersection, clip, and buffer. I used intersection to limit the bigfoot sightings just to Washington since the shapefile was for global sightings. I utilized clip for the wilderness areas, again to limit it to Washington from a national scale, and since I didn't need any of the other data that came with the file. Finally, I used the buffer tool to determine a relationship between bigfoot sightings and marijuana retailers by placing a 25km buffer around the retailer locations. Again, I believe there is a strong correlation between marijuana availability and bigfoot sightings but there is no proof of causation.</p>
+- - 
+<h2>Data used for this project:</h2>
+
+ <a href="https://wilderness.net/visit-wilderness/gis-gps.php#w"> Data Source </a>
+ <p></p>
+ <a href="https://hub.arcgis.com/datasets/TrainingServices::-bigfoot-sightings"> Data Source</a>
+ <p></p>
+ <a href="https://hub.arcgis.com/datasets/WSLCB::public-retail-locations"> Data Source</a>
+    <p></p>
+    <a href="https://gjmart.github.io/GEOG370HW2/HW%2010/HW10_data.csv"> CSV Data</a>
+    <p></p>
+</body>
+</html>
